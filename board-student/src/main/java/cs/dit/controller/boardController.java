@@ -18,7 +18,7 @@ import cs.dit.command.boardViewCommand;
 
 @WebServlet("*.bd")
 public class boardController extends HttpServlet {
-
+	private static final long serialVersionUID = 1L;
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html; charset=utf-8");
